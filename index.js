@@ -68,8 +68,8 @@ function alignTextright(){
 boldbutton.addEventListener("click",boldText);
 function boldText(){
     textArea.classList.toggle('bold');
-    textArea.classList.remove('italic');
-    textArea.classList.remove('underline');
+    // textArea.classList.remove('italic');
+    // textArea.classList.remove('underline');
 
 
 }
@@ -77,13 +77,13 @@ function boldText(){
 italicbutton.addEventListener("click", italicText);
 function italicText(){
     textArea.classList.toggle('italic');
-    textArea.classList.remove('bold');
-    textArea.classList.remove('underline');
+    // textArea.classList.remove('bold');
+    // textArea.classList.remove('underline');
 }
 
 undrlinebutton.addEventListener("click", underlineText);
 function underlineText(){
     textArea.classList.toggle('underline');
-    textArea.classList.remove('italic');
-    textArea.classList.remove('bold');
+    // textArea.classList.remove('italic');
+    // textArea.classList.remove('bold');
 }
