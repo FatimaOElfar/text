@@ -43,7 +43,7 @@ align-items: center;
 
 position: absolute;
     right:40px;
-    /* top: 4%; */
+    top: 4%;
 }
 .minimize i{
     position: absolute;
@@ -195,5 +195,8 @@ textarea{
     textarea{
 min-height:60%;
 width: 100%;
+    }
+    .minimize i{
+        margin-top: 10px;
     }
 }
